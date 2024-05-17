@@ -1,4 +1,6 @@
 import logo from "./logo.svg";
+import tnlogo from "./tnlogo.png";
+import tnlogoWhite from "./tnlogoWhite.png";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -59,4 +61,6 @@ export {
   carrent,
   jobit,
   tripguide,
+  tnlogo,
+  tnlogoWhite,
 };

@@ -15,6 +15,11 @@ export default {
       boxShadow: {
         card: "0px 35px 120px -15px #211e35",
       },
+      textShadow: {
+        sm: "0 1px 2px var(--tw-shadow-color)",
+        DEFAULT: "0 2px 4px var(--tw-shadow-color)",
+        lg: "0 8px 16px var(--tw-shadow-color)",
+      },
       screens: {
         xs: "450px",
       },

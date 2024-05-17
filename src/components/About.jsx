@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 /* eslint-disable react-refresh/only-export-components */
 /* eslint-disable react/prop-types */
 /* eslint-disable react/no-unknown-property */
@@ -37,22 +38,88 @@ const About = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>Introduction</p>
-        <h2 className={styles.sectionHeadText}>Overview</h2>
+        <p className={styles.sectionSubText}>ABOUT ME</p>
+        <h1 className="mt-5  text-[60px] leading-[60px] font-serif hover: ">
+          I'm passionate about creating beautiful products that
+          <span className="ml-6 text-[70px] font-serif italic ">
+            empower people.
+          </span>
+        </h1>
       </motion.div>
+      <p className="mt-9 text-[20px] ">My background is in the university</p>
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
-        className="'mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
+        className="mt-6 text-secondary text-[20px] leading-[30px] indent-8"
       >
-        As a fourth-year student with a deep passion for web development, I
-        bring a blend of enthusiasm and experience to the table. I thrive on
-        learning, take on responsibilities with utmost dedication, and approach
-        problem-solving with flexibility and creativity. My journey as a student
-        has fueled my passion for web development, and I am constantly seeking
-        ways to expand my skills and knowledge in this field. I am eager to
-        leverage my expertise and contribute positively to projects while
-        continuing to grow as a web developer.
+        As a fourth-year student waiting to graduate from
+        <a
+          href="https://huflit.edu.vn/"
+          target="_blank"
+          className="ml-2 text-[25px] font-serif italic hover:underline "
+        >
+          Ho Chi Minh City University of Foreign Languages and Information
+          Technology – HUFLIT
+        </a>
+        . I'm passionate about creating seamless user experiences and believe
+        that simplifying code leads to more agile applications.
       </motion.p>
+      <motion.p
+        variants={fadeIn("", "", 0.1, 1)}
+        className="mt-5 text-secondary text-[20px] leading-[30px] indent-8"
+      >
+        When I was a student, I learned a lot about job opportunities in
+        information technology, and I decided to choose Web Programming since I
+        enjoy customizing and drawing on my websites. I completed my university
+        studies with a
+        <span className="ml-2 text-[25px] bold text-white">3.3 GPA</span>. I got
+        <span className="ml-2 mr-2 text-[25px] bold text-white">
+          an
+          <span className="ml-2 mr-2 text-[35px] bold text-white">A</span>
+          in web programming
+        </span>
+        and
+        <span className="ml-2 mr-2 text-[25px] bold text-white">
+          an
+          <span className="ml-2 mr-2 text-[35px] bold text-white">A+</span>
+          in advanced web programming.
+        </span>
+      </motion.p>
+
+      <motion.p
+        variants={fadeIn("", "", 0.1, 1)}
+        className="mt-5 text-secondary text-[20px] leading-[30px] indent-8"
+      >
+        I very appreciate my school because it allows me to make new friends and
+        learn with them. I've also stood at the lectern and taught my classmates
+        about programming. My time in college gave me many valuable lessons
+        about my major and life lessons.
+      </motion.p>
+
+      <p className="mt-9 text-[20px] ">But, I wanted more.</p>
+      <motion.p
+        variants={fadeIn("", "", 0.1, 1)}
+        className="mt-6 text-secondary text-[20px] leading-[30px] indent-8"
+      >
+        I wanted to push my design craft at a faster pace and have a positive
+        impact on vastly more people.
+      </motion.p>
+      <motion.p
+        variants={fadeIn("", "", 0.1, 1)}
+        className="mt-5 text-secondary text-[20px] leading-[30px] indent-8"
+      >
+        Quickly become a programmer with the ability to design and build
+        applications according to market needs in the most meticulous and
+        sophisticated way possible.
+      </motion.p>
+
+      <motion.p
+        variants={fadeIn("", "", 0.1, 1)}
+        className="mt-5 text-secondary text-[20px] leading-[30px] indent-8"
+      >
+        Learning and upgrading skills to help design application interfaces such
+        as 3D visuals and mobile applications to suit market criteria
+      </motion.p>
+
       <div className="mt-20 flex flex-wrap gap-10">
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
