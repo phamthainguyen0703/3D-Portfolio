@@ -22,15 +22,29 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import MaUI from "./tech/MaUI.png";
+import sql from "./tech/sql.png";
+import GitLogo from "./tech/GitLogo.png";
+import csharp from "./tech/csharp.png";
+import antDesign from "./tech/antDesign.png";
+import MVCdotNet from "./tech/MVCdotNet.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import trello from "./company/trello.png";
+import tiktok from "./company/tiktok.png";
+import clinic from "./company/clinic.png";
+import 𝐒𝐈𝐌𝐏𝐋𝐈𝐅𝐈𝐑𝐄 from "./company/𝐒𝐈𝐌𝐏𝐋𝐈𝐅𝐈𝐑𝐄.jpg";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import trelloBg from "./trelloBg.png";
+import tiktokBg from "./tiktokBg.png";
+import simpBg from "./simpBg.png";
+import live from "./live.png";
 
 export {
   logo,
@@ -63,4 +77,18 @@ export {
   tripguide,
   tnlogo,
   tnlogoWhite,
+  MaUI,
+  sql,
+  GitLogo,
+  csharp,
+  antDesign,
+  MVCdotNet,
+  trello,
+  tiktok,
+  clinic,
+  𝐒𝐈𝐌𝐏𝐋𝐈𝐅𝐈𝐑𝐄,
+  trelloBg,
+  tiktokBg,
+  simpBg,
+  live,
 };

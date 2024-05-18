@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import {
   mobile,
   backend,
@@ -23,6 +24,18 @@ import {
   jobit,
   tripguide,
   threejs,
+  MaUI,
+  sql,
+  GitLogo,
+  csharp,
+  antDesign,
+  MVCdotNet,
+  trello,
+  tiktok,
+  clinic,
+  trelloBg,
+  tiktokBg,
+  simpBg,
 } from "../src/assets";
 
 export const navLinks = [
@@ -38,23 +51,31 @@ export const navLinks = [
     id: "contact",
     title: "Contact",
   },
+  // {
+  //   id: "",
+  //   title: "Linkedln ↗",
+  // },
+  // {
+  //   id: "",
+  //   title: "Resume ↗",
+  // },
 ];
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Frontend Developer",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Backend Developer",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Mobile Developer",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "3D visualizer",
     icon: creator,
   },
 ];
@@ -85,86 +106,113 @@ const technologies = [
     icon: redux,
   },
   {
+    name: "Node JS",
+    icon: nodejs,
+  },
+  {
     name: "Tailwind CSS",
     icon: tailwind,
   },
   {
-    name: "Node JS",
-    icon: nodejs,
+    name: "MaUI",
+    icon: MaUI,
   },
   {
     name: "MongoDB",
     icon: mongodb,
   },
   {
-    name: "Three JS",
-    icon: threejs,
+    name: "sql",
+    icon: sql,
+  },
+  // {
+  //   name: "Three JS",
+  //   icon: threejs,
+  // },
+  // {
+  //   name: "git",
+  //   icon: git,
+  // },
+  // {
+  //   name: "figma",
+  //   icon: figma,
+  // },
+  // {
+  //   name: "docker",
+  //   icon: docker,
+  // },
+
+  {
+    name: "GitLogo",
+    icon: GitLogo,
   },
   {
-    name: "git",
-    icon: git,
+    name: "csharp",
+    icon: csharp,
   },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
-  },
+  // {
+  //   name: "antDesign",
+  //   icon: antDesign,
+  // },
+  // {
+  //   name: "MVCdotNet",
+  //   icon: MVCdotNet,
+  // },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "TRELLO CLONE",
+    company_name: "Teamsize: 1",
+    icon: trello,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "March 2024 - April 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Develop a website inspired by Trello, featuring drag-and-drop functionality using the dnd-kit library. Implement dark and light modes for user preference. Integrate a RESTful API for backend operations, managing the storage of column and card data on the board.",
+      "Front-end: HTML, CSS, JavaScript, ReactJs, Material UI, Bootstrap 4.",
+      "Back-end: NodeJs, ExpressJs,  MongoDb.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
+    title: "TIKTOK UI CLONE",
+    company_name: "Teamsize: 1",
+    icon: tiktok,
+    iconBg: "#E6DEDD",
+    date: "December 2023 - March 2024",
+    points: [
+      "Develop a website interface inspired by TikTok, integrating its unique features. Utilize APIs from F8 Education for backend functionality.",
+      "This innovative platform allows users to create, share, and discover short videos effortlessly, fostering a vibrant community of content creators and viewers. Whether you're looking to showcase your talent, find entertaining clips, or connect with others, VidFlow offers a seamless and immersive experience.",
+      "Front-end: HTML, SCSS, JavaScript, ReactJs,React Hook, Bootstrap ",
+      "Back-end: Utilize APIs from F8 Education",
+    ],
+  },
+  {
+    title: "𝐒𝐈𝐌𝐏𝐋𝐈𝐅𝐈𝐑𝐄®",
+    company_name: "Teamsize: 1",
     icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    iconBg: "#E6DEDD",
+    date: "September 2023 - November 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Develop an e-commerce website with distinct user and admin roles.",
+      "Admin Role: Product Management: Create, Read, Update, and Delete (CRUD) operations. Order Management: Track and manage orders. User Management: Handle user accounts and permissions. Payment Statistics: Access and analyze payment data.",
+      "User Role: Authentication: Secure login and registration process. Cart Functionality: Add products to cart and adjust quantities. Payment Options: Choose between pay on delivery or PayPal. Personal Information Management: Update and manage personal details.",
+      "Front-end: HTML, CSS, JavaScript, ReactJs, React Hook Redux, Ant Design, Bootstrap 4",
+      "Back-end: NodeJs, ExpressJs,  MongoDb",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    title: "BOOKING CARE",
+    company_name: "Teamsize: 2",
+    icon: clinic,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "January 2023 - May 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developing a website that can handle the operations of a clinic with distinct user, doctor and admin roles.",
+      "Doctor Role: Manage medical examination plans: Create a medical examination plan based the time of day. Patient management: Track and confirm patient appointment schedules",
+      "Admin Role: Manage appointment information between doctors and patients, manage patient information, manage doctor information, manage blogs, etc.",
+      "User Role: Make an appointment according to the doctor's schedule, chat with support staff, rate the doctor, comment, share, and manage appointments with the doctor.",
+      "Front-end: HTML, CSS, JavaScript, ReactJs, React Hook Redux, Bootstrap 4",
+      "Back-end: NodeJs, ExpressJs,  MySQL",
     ],
   },
 ];
@@ -198,67 +246,83 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "TRELLO CLONE",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A website inspired by Trello, featuring drag-and-drop functionality using the dnd-kit library. Implement dark and light modes for user preference.",
+    tags: [
+      {
+        name: "reactjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "nodejs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "material",
+        color: "green-text-gradient",
+      },
+    ],
+    image: trelloBg,
+    source_code_link: "https://github.com/phamthainguyen0703/trello-web",
+    live_demo_link: "https://trello-web-dusky.vercel.app/",
+  },
+  {
+    name: "TIKTOK UI CLONE",
+    description:
+      "Develop a website interface inspired by TikTok, integrating its unique features. Utilize APIs from F8 Education for backend functionality.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
+      },
+      {
+        name: "reacthook",
+        color: "green-text-gradient",
+      },
+      {
+        name: "bootstrap",
+        color: "pink-text-gradient",
       },
       {
         name: "mongodb",
         color: "green-text-gradient",
       },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: tiktokBg,
+    source_code_link:
+      "https://github.com/phamthainguyen0703/TikTok-Ui-FullVersion",
+    live_demo_link: "https://tik-tok-ui-full-version.vercel.app/s",
   },
   {
-    name: "Job IT",
+    name: "𝐒𝐈𝐌𝐏𝐋𝐈𝐅𝐈𝐑𝐄®",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "an e-commerce website with distinct user and admin roles. With a beautiful interface, easy to use and operate, easily accessible to most users",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "node",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "antdesign",
         color: "pink-text-gradient",
       },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
       {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
+        name: "mongodb",
         color: "green-text-gradient",
       },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: simpBg,
+    source_code_link: "https://github.com/phamthainguyen0703/Ecommerce-master",
+    live_demo_link: "https://trello-web-dusky.vercel.app/",
   },
 ];
 

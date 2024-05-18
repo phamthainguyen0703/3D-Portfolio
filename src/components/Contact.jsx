@@ -121,15 +121,30 @@ const Contact = () => {
               onChange={handleChange}
               placeholder="What you want to say?"
               className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
-            />
+            />{" "}
+            <button
+              type="submit"
+              className="bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary mt-10"
+            >
+              {loading ? "Sending..." : "Send"}
+            </button>
           </label>
 
-          <button
-            type="submit"
-            className="bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary"
-          >
-            {loading ? "Sending..." : "Send"}
-          </button>
+          {/* <div className="flex justify-end gap-3 mt-5">
+            <a
+              href="https://github.com/phamthainguyen0703"
+              target="blank"
+              className="bg-tertiary py-3 px-2 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary ml-10"
+            >
+              Github ↗
+            </a>
+            <a
+              type="submit"
+              className="bg-tertiary py-3 px-2 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary"
+            >
+              Resume ↗
+            </a>
+          </div> */}
         </form>
       </motion.div>
 

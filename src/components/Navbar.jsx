@@ -78,7 +78,7 @@ const Navbar = () => {
           >
             <ul className="list-none flex justify-end items-start flex-1 flex-col gap-4">
               {navLinks.map((nav) => (
-                <lise
+                <li
                   key={nav.id}
                   className={`font-poppins font-medium cursor-pointer text-[16px] ${
                     active === nav.title ? "text-white" : "text-secondary"
@@ -89,7 +89,7 @@ const Navbar = () => {
                   }}
                 >
                   <a href={`#${nav.id}`}>{nav.title}</a>
-                </lise>
+                </li>
               ))}
             </ul>
           </div>

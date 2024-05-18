@@ -46,7 +46,7 @@ const About = () => {
           </span>
         </h1>
       </motion.div>
-      <p className="mt-9 text-[20px] ">My background is in the university</p>
+      <p className="mt-9 text-[20px] ">My background in the university</p>
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-6 text-secondary text-[20px] leading-[30px] indent-8"
