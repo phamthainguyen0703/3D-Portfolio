@@ -24,6 +24,22 @@ const Hero = () => {
             interfaces and product design
           </p>
         </div>
+        <div className="flex justify-end gap-5 ml-20 z-10">
+          <a
+            href="https://github.com/phamthainguyen0703"
+            target="blank"
+            className="  text-white ml-10  hover:underline"
+          >
+            Github ↗
+          </a>
+          <a
+            className=" text-white hover:underline"
+            href="https://vietcv.io/phamthainguyen_iternwebsitedev_cv"
+            target="blank"
+          >
+            Resume ↗
+          </a>
+        </div>
       </div>
 
       <ComputersCanvas />
