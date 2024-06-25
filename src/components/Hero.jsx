@@ -34,7 +34,7 @@ const Hero = () => {
           </a>
           <a
             className=" text-white hover:underline"
-            href="https://vietcv.io/phamthainguyen_iternwebsitedev_cv"
+            href="https://vietcv.io/cv_phamthainguyen"
             target="blank"
           >
             Resume ↗
